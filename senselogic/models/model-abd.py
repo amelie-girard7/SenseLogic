@@ -1,4 +1,4 @@
-# /data/agirard/Projects/SenseLogic/src/models/model.py
+# /data/agirard/Projects/SenseLogic/senselogic/models/model-abd.py
 import csv
 import logging
 import os
@@ -7,8 +7,8 @@ import torch.nn.functional as F
 from transformers import T5ForConditionalGeneration, T5Config, T5Tokenizer
 import pytorch_lightning as pl
 from pathlib import Path
-from src.utils.config import CONFIG
-from src.utils.metrics import MetricsEvaluator
+from senselogic.utils.config-abd import CONFIG
+from senselogic.utils.metrics-abd import MetricsEvaluator
 import pandas as pd
 import wandb
 

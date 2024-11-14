@@ -6,9 +6,9 @@ from transformers import T5Tokenizer
 from pytorch_lightning import Trainer
 from pytorch_lightning.callbacks import ModelCheckpoint
 from pytorch_lightning.loggers import WandbLogger
-from senselogic.models.model import FlanT5FineTuner
-from senselogic.data_loader import create_dataloaders
-from senselogic.utils.config import CONFIG
+from senselogic.models-abd.model import FlanT5FineTuner
+from senselogic.data_loader-abd import create_dataloaders
+from senselogic.utils.config-abd import CONFIG
 
 # Add the project root to PYTHONPATH
 

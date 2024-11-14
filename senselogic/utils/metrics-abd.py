@@ -1,11 +1,11 @@
-# src/utils/metrics.py
+# senselogic/utils/metrics-abd.py
 import logging
 from sacrebleu.metrics import BLEU
 from rouge import Rouge
 from bert_score import BERTScorer
 import torch
-from src.utils.config import CONFIG
-from src.BARTScore_metric.bart_score import BARTScorer
+from senselogic.utils.config-abd import CONFIG
+from senselogic.BARTScore_metric.bart_score import BARTScorer
 
 logger = logging.getLogger(__name__)
 
